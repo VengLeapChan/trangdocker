@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: python-docker
-          image: vengleapchan/python-app:v4
+          image: vengleapchan/python-docker-1:v1
           imagePullPolicy: Always
           env:
             - name: POSTGRES_PASSWORD
